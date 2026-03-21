@@ -418,7 +418,15 @@ p {
 
 @media (max-width: 768px) {
   .hero {
-    min-height: 78vh;
+    min-height: 60vh;
+  }
+
+  .hero-back {
+    background:
+      linear-gradient(rgba(5, 8, 14, 0.12), rgba(5, 8, 14, 0.28)),
+      url("images/Hero.jpg") center top / contain no-repeat;
+    background-color: #f7f7f7;
+    transform: none;
   }
 
   .hero-content {
