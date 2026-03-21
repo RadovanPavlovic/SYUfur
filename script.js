@@ -39,7 +39,7 @@ const textData = {
     rulesDesc: "여기에서 소모임의 회칙 및 참여 조건을 확인할 수 있습니다.",
     seeRules: "회칙 보기",
     aboutTitle: "털맛 두유는?",
-    aboutDesc: "회원들의 다양한 활동과 퍼리 행사 참여를 지향하는 소모임입니다.",
+    aboutDesc: "회원들의 다양한 활동과 퍼리 행사 참여를 지향하는 교내 미등록 소모임입니다.",
     footerCopyright: "© Copyright 2026-2026. 털맛 두유 [Fur Flavored Soy Milk]. All rights reserved.",
     applyRef: "https://forms.gle/KRuiiRpYtfihToZZ7",
     rulesRef: "rules/회칙.pdf"
@@ -73,7 +73,7 @@ const textData = {
     rulesDesc: "Here, you can find the club's rules and participation requirements.",
     seeRules: "See rules",
     aboutTitle: "What's Fur Flavored Soy Milk?",
-    aboutDesc: "We are a club that encourages members to take part in various activities and furry events.",
+    aboutDesc: "We are an unofficial campus club that encourages members to take part in various activities and furry events.",
     footerCopyright: "© Copyright 2026-2026. 털맛 두유 [Fur Flavored Soy Milk]. All rights reserved.",
     applyRef: "https://forms.gle/U8qH3aTdXkuMtiA78",
     rulesRef: "rules/Rules.pdf"
@@ -85,17 +85,22 @@ const scheduleData = {
     Upcoming: [
       {
         date: "2026년 3월 27일",
-        title: "소모임 발족식",
-        desc: "신입 회원들이 서로 교류하고 친해질 수 있는 가벼운 모임입니다."
+        title: "소모임 OT",
+        desc: "신입 회원들이 소모임을 알아가며 서로 자연스럽게 친해질 수 있는 가벼운 모임입니다."
       }
     ],
     Previous: {
       "2026": [
         {
-          date: "2026년 -월 -일",
-          title: "-",
-          desc: "-"
-        }
+          date: "2026년 3월 21일",
+          title: "소모임 창립일",
+          desc: "본 소모임의 역사가 시작된 날입니다."
+        },
+        {
+          date: "2026년 3월 21일",
+          title: "2026년 1학기 신입 회원 모집일",
+          desc: "본 소모임을 함께 만들어나갈 신입 회원 모집을 시작한 날입니다."
+        },
       ],
     }
   },
@@ -104,17 +109,22 @@ const scheduleData = {
     Upcoming: [
       {
         date: "March 27, 2026",
-        title: "Club Kickoff Meet-up",
-        desc: "A casual meet-up for new members to interact and get to know each other."
+        title: "Club Orientation",
+        desc: "This is a casual meet-up where new members can learn about the club and get to know each other."
       }
     ],
     Previous: {
       "2026": [
         {
-          date: "- -, 2026",
-          title: "-",
-          desc: "-"
-        }
+          date: "March 21, 2026",
+          title: "Club Foundation Day",
+          desc: "This marks the beginning of our club's history."
+        },
+        {
+          date: "March 21, 2026",
+          title: "New Memeber Recruitment - Spring Semester, 2026",
+          desc: "This marks the start of recruiting new members to develop our club together."
+        },
       ],
     }
   }
